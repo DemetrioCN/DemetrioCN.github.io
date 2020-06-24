@@ -18,7 +18,8 @@ h6 {
 
 /* Diseño para el container: secciónes definidas dentro de html*/
 .container {   
-    width: 1000px;
+    max-width: 1000px;
+    flex: 1;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -46,7 +47,7 @@ h6 {
 
 /* Diseño de los artículos cuando aparecen enlistados */
 .project {
-     border-radius: 10px; 
+    border-radius: 10px; 
     padding-top: 10px;
     padding-right: 40px;
     padding-bottom: 10px;
@@ -55,6 +56,7 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -83,7 +85,7 @@ h6 {
 }
 
 .project-details {
-     width: 1000px;
+    width: 100%;
  }
 
 
@@ -97,7 +99,8 @@ h6 {
     align-items: center;
     justify-content: space-between;
     height: 90px; 
- }
+    flex-wrap: wrap;
+}
 
 /* Diseño para la listas del menú */
   .header ol {
@@ -134,7 +137,10 @@ figure {
     color: #858585;
     background-color: white;
     display: flex; 
+    align-items: center;
+    /* Centra el contenido del footer */
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -145,7 +151,10 @@ figure {
     height: 150px;
     display: flex;
     align-items: center;
+    /* Centrar los simbolos de redes sociales */
     justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 .social-link {
@@ -169,3 +178,69 @@ figure {
     background-image: url(../images/instagram.svg);
 }
 
+
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        display: block;
+        height: auto;
+    }
+    .header ol {
+        display: block;
+    }
+    .header ol li {
+        height: 50px;    
+    }
+    .header a {
+        justify-content: center;
+        height: 40px;
+        font-size: 2em;
+/*         text-decoration: underline;
+ */        margin-bottom: .5em;
+    }
+    .header .logo {
+        text-align: center;
+    }
+    .project {
+        display: block;
+    }
+    .project-details {
+        width: auto;
+ /*        font-size: 16px; */
+    }
+    .project-title {
+        font-size: 1.5em;
+        margin-bottom: .3em;
+    }
+    .project-date {
+        font-size: 1em;
+        margin: .3em 0;
+    }
+    .project-description {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .project-details {
+        font-size: 14px;
+    }
+    .contact {
+        height: auto;
+        padding: 1.5em 0 ;
+        text-align: center;
+        display: block;
+    }
+    .footer {
+        display: block;
+        text-align: center;
+        border: 1px solid transparent;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+}
