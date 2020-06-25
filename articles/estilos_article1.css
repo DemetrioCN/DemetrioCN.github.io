@@ -1,0 +1,200 @@
+/* Diseño para el body */
+body {
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+     margin: 36px 0 18px;
+}
+
+/* Tipo de letra y nivel de negrita para todos los tamaños */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "PT Sans", Helvetica, Arial, sans-serif ;
+    font-weight: normal;
+}
+
+/* Diseño para el container: secciónes definidas dentro de html*/
+.container {   
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    border-bottom: 1px solid #527F76;
+}
+
+/* Diseño para las palabras en h1 */
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0;
+} 
+
+
+/* Diseño del header: título y menú */ 
+.header {
+    background-color: white ;
+    color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px; 
+    flex-wrap: wrap;
+}
+
+/* Diseño para la listas del menú */
+  .header ol {
+    display: flex;
+    height: inherit;
+} 
+
+
+ /* Esto asigna color a las palabras del header */
+ .header a {
+    color: 	#545454;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 150%;
+ }
+
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} 
+
+figure {
+    margin: 0;
+}
+
+
+h2{
+    font-family: "PT Serif", Georgia, "Times New Roman", serif;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color:#669999 ;
+    margin: 0;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} 
+
+
+
+.article-header {
+    font-family: "PT Serif", Georgia, "Times New Roman", serif;
+    max-width: 800px;
+    flex: 1;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+
+.article-header-content {
+    font-family: "PT Serif", Georgia, "Times New Roman", serif;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+
+
+.title-article {
+    font-family: "PT Serif", Georgia, "Times New Roman", serif;
+}
+
+.my_name {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.my_date {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.reference {
+    font-family: "PT Serif", Georgia, "Times New Roman", serif;
+    max-width: 800px;
+    margin: auto;
+}
+
+.reference-title {
+    font-family: "PT Serif", Georgia, "Times New Roman", serif;
+    max-width: 800px;
+    margin: auto;
+}
+.article-content {
+    font-family: "PT Serif", Georgia, "Times New Roman", serif;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+/* Diseño del footer */
+.footer {
+    color: #858585;
+    background-color: white;
+    display: flex; 
+    align-items: center;
+    /* Centra el contenido del footer */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* Diseño para la sección de redes sociales */
+.contact {
+    background-color:#669999 ;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    /* Centrar los simbolos de redes sociales */
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;  
+} 
+
+.social-link.twitter {
+    background-image: url(../images/twitter.svg);
+}
+
+
+.social-link.github {
+    background-image: url(../images/github.svg);
+}
+
+.social-link.instagram {
+    background-image: url(../images/instagram.svg);
+}
