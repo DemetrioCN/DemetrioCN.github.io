@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "PT Sans", Helvetica, Arial, sans-serif ;
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
     font-weight: normal;
 }
 
@@ -62,14 +62,21 @@ h6 {
 
 /* Diseño para las palabras en h1 */
  h1{
-    font-size: 40px;
+    font-size: 35px;
     line-height: 1.5;
     letter-spacing: -.2px;
     color: white;
     margin: 0;
 } 
 
-
+h4{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: black;
+    margin: 0;
+}
 /* Color y padding de la sección de los artículos */
 .portfolio {
     background: white;
@@ -123,14 +130,14 @@ h6 {
 
 /* Diseño del header: título y menú */ 
 .header {
-    background-color: white ;
+    background-color: white;
     color: white;
     display: flex;
-    height: 70px;
+    height: 120px;
     align-items: center;
     justify-content: space-between;
-    height: 90px; 
-    flex-wrap: wrap;
+/*     height: 90px; 
+ */    flex-wrap: wrap;
 }
 
 /* Diseño para la listas del menú */
@@ -194,6 +201,7 @@ figure {
     height: 50px;
     margin: 0 10px;
     background-size: 50px 50px;  
+
 } 
 
 .social-link.twitter {
@@ -209,6 +217,9 @@ figure {
     background-image: url(../images/instagram.svg);
 }
 
+.social-link.linkedin{
+    background-image: url(../images/linkedin.png);
+}
 
 .burger-button {
     width: 40px;
