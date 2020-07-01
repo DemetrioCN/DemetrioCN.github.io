@@ -8,12 +8,43 @@
     padding: 40px;
  
 }
-.section p {
-    text-align: center;
+.contenido-titulo{
+    text-align: justify;
     padding: 30px;
-    border: 5px solid white;
+    border: 5px dashed white;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
+
+.titulo {
+    text-align: center;
+    color: teal;
+
+}
+
+.hobbies {
+    text-align: center;
+    font-size: x-large;
+    color: teal;
+    font-weight: bold;
+}
+
+.mis_hobbies{
+    color: teal;
+    text-align: justify;
+    padding: 30px;
+    border: 5px dashed white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;  
+}
+
+h4 {
+    color: darkblue;
+    font-size: x-large;
+
+}
+
