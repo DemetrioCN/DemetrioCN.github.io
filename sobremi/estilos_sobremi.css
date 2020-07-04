@@ -31,20 +31,28 @@
     font-weight: bold;
 }
 
-.mis_hobbies{
+.mis-hobbies{
     color: teal;
     text-align: justify;
     padding: 30px;
-    border: 5px dashed white;
+    border: 5px dashed red;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 150px;
-    margin-right: 150px;  
+    margin-right: 150px; 
 }
 
 h4 {
     color: darkblue;
     font-size: x-large;
+
+}
+
+.explor { 
+    text-align: justify;
+    font-size: x-large;
+    color: darkolivegreen;
+    font-weight: bold;
 
 }
 

@@ -36,6 +36,10 @@ body {
      margin: 36px 0 18px;
 }
 
+.link{
+    border: 4px dotted #0f7b8b;
+    margin-right: 10px;
+}
 /* Tipo de letra y nivel de negrita para todos los tamaños */
 h1,
 h2,
@@ -147,9 +151,9 @@ h4{
 } 
 
 
- /* Esto asigna color a las palabras del header */
+ /* Esto asigna color a las palabras del header #545454 */
  .header a {
-    color: 	#545454;
+    color: 	red;
     text-decoration: none;
     height: inherit;
     display: flex;
