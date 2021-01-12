@@ -1,0 +1,10 @@
+.portafolio__article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.sobremi__content {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
