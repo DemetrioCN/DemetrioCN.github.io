@@ -1,2 +1,6 @@
 # Página web personal
-Este sitio web fue creado para postear mis intereses personales y profesionles, sí como comprtir mis conocimientos.
+
+Este sitio web lo he creado para postear mis proyectos personales, así como mis intereses y conocimientos. 
+
+
+Demetrio Cumplido Narciso
