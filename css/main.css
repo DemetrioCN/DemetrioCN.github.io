@@ -20,13 +20,16 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items:center;
 }
 .site-identity h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.1em;
+    font-family:  'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
     color: rgba(234, 253, 252, 0.6);
     margin-left: 100px;
     font-weight: 300;
+    line-height: 1.1;
+    letter-spacing:1.5px;
 }
 .site-navigation{
     height: 80px;
@@ -38,12 +41,17 @@ header {
 .site-navigation h1 {
     margin-left: 100px;
     align-self: center;
-    font-family:  'DM Sans';
+    font-family:  'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 300;
+    font-size: 2.0em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .site-navigation h1 a {
-    font-size: 1.3em;
     color: rgb(130, 170, 227);
+}
+.site-navigation h1 a:hover {
+    color: #F2D7D9;
 }
 .nav-right-section {
     margin-right: 100px;
@@ -54,26 +62,33 @@ header {
 }
 .nav-right-section li {
     width: auto;
-    margin:0 30px;
+    margin:0 auto;
 }
 .nav-right-section li a {
     font-size: 1.1em;
     color: rgb(130, 170, 227);
-    font-family:  'DM Sans';
+    font-family:  'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 1.0px;
 }
 .nav-right-section li a:hover {
-    font-size: 1.1em;
     color: #F2D7D9;
 }
 main {
     margin: 50px 250px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width:50%;
+    align-self: center;
+    margin: 0 auto;
+
 }
 article {
     margin-top: 50px;
-    height: 250px;
+    height: auto;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
 }
 article h1 {
     padding-bottom: 10px;
@@ -92,18 +107,18 @@ article h1 a:hover {
 article h3 {
     color: rgba(0, 0, 0, 0.7);
     font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lora','Times New Roman', serif;
     font-weight: 300;
-    line-height: 165%;
     letter-spacing: .25px;
+    margin: 0;
 }
 article p {
-    color: rgba(0, 0, 0, 0.8);
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 300;
-    line-height: 160%;
-    letter-spacing: .25px;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.7px;
+    margin-top: 10px;
+    font-weight: 400;
 }
 
 footer {
@@ -121,6 +136,7 @@ footer h2 {
     color: rgba(234, 253, 252, 0.6);
     font-size: 2.0em;
     margin-left: 100px;
+    font-family: 'Lora','Times New Roman', serif;
 }
 .footer-items {
     display: flex;
