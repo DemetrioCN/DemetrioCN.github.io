@@ -24,7 +24,7 @@ header {
 }
 .site-identity h2 {
     font-family:  'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.1em;
     color: rgba(234, 253, 252, 0.6);
     margin-left: 100px;
     font-weight: 300;
@@ -106,19 +106,18 @@ article h1 a:hover {
 }
 article h3 {
     color: rgba(0, 0, 0, 0.7);
-    font-size: 16px;
-    font-family: 'Lora','Times New Roman', serif;
+    font-size: 14px;
+    font-family: 'DM Sans';
     font-weight: 300;
     letter-spacing: .25px;
     margin: 0;
 }
 article p {
-    color: rgba(0, 0, 0, 0.9);
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    font-family: 'DM Sans';
     letter-spacing: 0.7px;
     margin-top: 10px;
-    font-weight: 400;
 }
 
 footer {
